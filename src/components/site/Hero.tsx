@@ -82,7 +82,7 @@ export function Hero() {
         >
           <div className="absolute -inset-6 bg-[color-mix(in_oklab,var(--teal)_18%,transparent)] rounded-[3rem] blur-2xl" aria-hidden />
           <div className="relative rounded-[2rem] overflow-hidden shadow-[var(--shadow-lift)] border border-white">
-            <img src={hero} alt="Mamta Hospital reception" width={1600} height={1100} className="w-full h-[460px] lg:h-[560px] object-cover" />
+            <img src={hero} alt="Mamta Hospital reception" width={1600} height={1100} fetchPriority="high" className="w-full h-[460px] lg:h-[560px] object-cover" />
           </div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
